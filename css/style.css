@@ -1,0 +1,246 @@
+/* Google Font Links */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Universal */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Scroll bar */
+
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: transparent;
+    padding: 0 2px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #111;
+}
+
+
+/* Main - content */
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* Container */
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #191919;
+}
+
+.container .phone {
+    width: 375px;
+    height: 665px;
+    border: 10px solid #111;
+    background: #000;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.container .phone .backBtn {
+    width: 100%;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container .phone .backBtn ion-icon {
+    font-size: 1.5em;
+    margin-right: 20px;
+}
+
+.container .phone .backBtn span {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+
+/* Profile */
+
+.container .phone .profile {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+}
+
+.container .phone .profile .details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .phone .profile .details .profileImg {
+    width: 50px;
+    height: 50px;
+    background: #111;
+    border-radius: 50%;
+    border: 5px solid #1f1f1f;
+    overflow: hidden;
+}
+
+.container .phone .profile .details .profileImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .phone .profile .details .proDetails {
+    margin-left: 10px;
+    color: #fff;
+}
+
+.container .phone .profile .details .proDetails h3 {
+    font-size: 0.8em;
+    line-height: 1em;
+    font-weight: 800;
+}
+
+.container .phone .profile .details .proDetails h3 img {
+    width: 10px;
+    height: 10px;
+}
+
+.container .phone .profile .details .proDetails h4 {
+    font-size: 0.7em;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+.container .phone .profile .more ion-icon {
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+
+/* Main-content */
+
+.phone .instaContainer {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: scroll;
+    background: #000;
+}
+
+.phone .instaContainer .postBx .phone .instaContainer .postBx {
+    width: 100%;
+    height: auto;
+}
+
+.phone .instaContainer .postBx:last-child {
+    margin-bottom: 80px;
+}
+
+.phone .instaContainer .postBx .post {
+    width: 100%;
+    height: 380px;
+}
+
+.phone .instaContainer .postBx .post img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.phone .instaContainer .postBx .like {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+.phone .instaContainer .postBx .like a {
+    color: #fff;
+    margin: 0 4px;
+}
+
+.phone .instaContainer .postBx .like a#heart {
+    margin-left: 0;
+}
+
+.phone .instaContainer .postBx .like a#save {
+    margin-right: 0;
+}
+
+.phone .instaContainer .postBx .like a ion-icon {
+    font-size: 1.5em;
+}
+
+.phone .instaContainer .postBx .likesNo {
+    width: 100%;
+    padding: 0 15px;
+    color: #fff;
+}
+
+.phone .instaContainer .postBx .likesNo h4 {
+    font-size: 0.8em;
+    line-height: 0em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.phone .instaContainer .postBx .likesNo h5 {
+    font-size: 0.7em;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.phone .instaContainer .postBx .likesNo h5 span {
+    font-weight: 500;
+}
+
+.phone .instaContainer .postBx .likesNo h5 img {
+    width: 10px;
+    height: 10px;
+}
+
+.phone .instaContainer .postBx .comment {
+    width: 100%;
+    padding: 0 15px;
+    color: #ccc;
+}
+
+.phone .instaContainer .postBx .comment h5 {
+    font-weight: 300;
+    font-size: 0.8em;
+    line-height: 0;
+    margin-bottom: 15px;
+}
+
+.phone .instaContainer .postBx .comment h5 span {
+    color: #fff;
+}
+
+.phone .instaContainer .postBx .comment h5:nth-child(2) {
+    font-size: 0.6em;
+    /* margin-bottom: 80px; */
+}
